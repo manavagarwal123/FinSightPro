@@ -1,0 +1,24 @@
+date,description,amount,category
+2024-01-01,Salary,-1000,Income
+2024-01-02,Company purchase,50,Amazon
+2024-03-03,Amazon purchase,100,Shopping
+2023-03-08,swiggy,67,Food
+2024-04-09,bus,29,Transport
+2024-05-05,hospital,34,Health
+2022-06-11,samsung,100,Tv
+2024-07-01,hospital,53,Health
+2024-08-01,swiggy,122,Food
+2025-09-01,dmart,577,Grocies
+2024-10-01,Company purchase,-100,Amazon
+2024-11-01,electricity,-100,Bill
+2023-12-07,samsung,-100,Tv
+2024-12-13,bus,-100,Transport
+2025-03-14,Pg,100,Rent
+2024-01-15,Salary,-9000,Income
+2024-01-16,dmart,100,Grocies
+2024-01-17,Salary,-459,Income
+2024-01-18,electricity,599,Bill
+2024-01-19,profit,-45000,Salary
+2024-01-20,Salary,-9999,Income
+2023-01-21,selling,-2344,Refund
+2023-02-21,electricity,-3000,Bill

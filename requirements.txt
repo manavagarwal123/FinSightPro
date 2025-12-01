@@ -1,0 +1,83 @@
+# ============================================================================
+# FinSight Pro - Python Dependencies
+# AI-Powered Financial Analytics Dashboard
+# ============================================================================
+# 
+# Installation Instructions:
+#   1. Create virtual environment: python -m venv venv
+#   2. Activate virtual environment:
+#      - Windows: venv\Scripts\activate
+#      - macOS/Linux: source venv/bin/activate
+#   3. Install dependencies: pip install -r requirements.txt
+#   4. Run application: streamlit run app.py
+#
+# For detailed setup, see SETUP.md
+# ============================================================================
+
+# ----------------------------------------------------------------------------
+# Core Framework
+# ----------------------------------------------------------------------------
+# Streamlit: Web framework for building interactive dashboards
+# Why: Rapid development, built-in widgets, session state management
+streamlit>=1.28.0
+
+# ----------------------------------------------------------------------------
+# Data Processing
+# ----------------------------------------------------------------------------
+# Pandas: Data manipulation and analysis library
+# Why: Industry-standard for financial data processing, time series support
+pandas>=2.0.0
+
+# NumPy: Numerical computing foundation
+# Why: Fast array operations, required by scikit-learn, mathematical operations
+numpy>=1.24.0
+
+# ----------------------------------------------------------------------------
+# PDF Processing
+# ----------------------------------------------------------------------------
+# pdfplumber: PDF text and table extraction
+# Why: Specialized for bank statements, maintains layout, reliable parsing
+# Note: May require system dependencies (libffi-dev on Linux)
+pdfplumber>=0.10.0
+
+# ----------------------------------------------------------------------------
+# Visualization
+# ----------------------------------------------------------------------------
+# Plotly: Interactive visualization library
+# Why: Professional charts, zoom/pan/hover interactions, export capabilities
+plotly>=5.17.0
+
+# ----------------------------------------------------------------------------
+# Machine Learning
+# ----------------------------------------------------------------------------
+# scikit-learn: Machine learning algorithms
+# Why: Isolation Forest (anomaly detection), K-Means (clustering), StandardScaler
+scikit-learn>=1.3.0
+
+# ----------------------------------------------------------------------------
+# Excel Support
+# ----------------------------------------------------------------------------
+# XlsxWriter: Create Excel files with formatting
+# Why: Professional Excel export, multiple sheets, formatting control
+xlsxwriter>=3.1.0
+
+# openpyxl: Read and write Excel files
+# Why: Read uploaded Excel files, maintain formatting, pandas integration
+openpyxl>=3.1.0
+
+# ----------------------------------------------------------------------------
+# Optional: PDF Generation
+# ----------------------------------------------------------------------------
+# ReportLab: Generate PDF reports
+# Why: Create executive PDF reports, custom layouts, chart embedding
+# Note: Optional - app works without it, but PDF export features disabled
+reportlab>=4.0.0
+
+# ============================================================================
+# Standard Library (no installation needed)
+# ============================================================================
+# - re: Regular expressions for pattern matching
+# - io.BytesIO: In-memory file handling for exports
+# - datetime: Date and time operations
+# ============================================================================
+
